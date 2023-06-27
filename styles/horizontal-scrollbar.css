@@ -1,6 +1,6 @@
 .horizontal-scrollbar-container {
     display: flex;
-    width: 100%;
+    width: 100vh;
     height: 400px;
     overflow-x: hidden;
     align-items: center;
@@ -26,15 +26,13 @@
 }
 
 
-
-
 .scroll-arrows {
     position: relative;
     display: flex;
     column-gap: 25px;
     justify-content: right;
     align-items: center;
-    width: 100%;
+    width: 100vh;
     margin-top: 10px;
     margin-bottom: 50px;
 }
