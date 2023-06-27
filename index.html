@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Molly's Fitness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/general.css">
+    <link rel="stylesheet" href="styles/main-body.css">
+    <link rel="stylesheet" href="styles/horizontal-scrollbar.css">
+    <link rel="stylesheet" href="styles/display-result.css">
+    <link rel="stylesheet" href="styles/footer.css">
+</head>
+
+<body>
+
+
+    <div class="main-container">
+        <div class="left-section">
+            <div class="header-section">
+                <div class="logo-image">
+                    <img src="images/logo.PNG" alt="img">
+                </div>
+                <div class="home">Home</div>
+                <div class="about">About</div>
+            </div>
+            <div class="middle-section">
+                <div class="middle-section-title">Molly's Fitness Club Welcomes You!!
+                </div>
+                <div class="middle-section-slogan">Sweat, Smile and Repeat!!</div>
+
+                <div class="middle-section-slogan">Subscribe to our weekly newsletter</div>
+                <div class="subscribe-section">
+                    <input class="input-email" type="email" placeholder="Enter your e-mail address">
+                    <button class="subscribe-button">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="right-section">
+            <img class="workout-img" src="images/workout-img.jpg" alt="img">
+            <div class="bottom-banner">Exercise</div>
+        </div>
+    </div>
+
+
+    <div class="horizontal-scrollbar-container">
+        <!-- <img src="images/cards/all.png" alt="img"> -->
+        <img src="images/cards/chest.png" alt="img" onclick="fetchData('chest')">
+        <img src="images/cards/abdomen.png" alt="img" onclick="fetchData('abdominals')">
+        <img src="images/cards/biceps.png" alt="img" onclick="fetchData('biceps')">
+        <img src="images/cards/forearm.png" alt="img" onclick="fetchData('forearms')">
+        <img src="images/cards/hamstrings.png" alt="img" onclick="fetchData('hamstrings')">
+        <img src="images/cards/lower_back.png" alt="img" onclick="fetchData('lower_back')">
+        <img src="images/cards/middle_back.png" alt="img" onclick="fetchData('middle_back')">
+        <img src="images/cards/ltas.png" alt="img" onclick="fetchData('lats')">
+        <img src="images/cards/traps.png" alt="img" onclick="fetchData('traps')">
+        <img src="images/cards/triceps.png" alt="img" onclick="fetchData('triceps')">
+        <img src="images/cards/quadriceps.png" alt="img" onclick="fetchData('quadriceps')">
+        <img src="images/cards/calves.png" alt="img" onclick="fetchData('calves')">
+        <img src="images/cards/neck.png" alt="img" onclick="fetchData('neck')">
+        <img src="images/cards/abductors.png" alt="img" onclick="fetchData('abductors')">
+        <img src="images/cards/adductors.png" alt="img" onclick="fetchData('adductors')">
+        <img src="images/cards/glutes.png" alt="img" onclick="fetchData('glutes')">
+    </div>
+
+
+    <div class="scroll-arrows">
+        <button class="left-arrow">&lt;</button>
+        <button class="right-arrow">&gt;</button>
+    </div>
+
+    <div class="display-result"></div>
+
+    <div class="footer">
+        <div class="footer-image">
+            <img src="images/logo.PNG" alt="img">
+        </div>
+        <div class="footer-message">
+            Made with <img src="images/heart.gif" alt="img"> by <a
+                href="mailto:dev.staticmethod@gmail.com">dev.staticmethod@gmail.com</a>
+        </div>
+    </div>
+
+
+    <script src="scripts/horizontal-scrollbar.js"></script>
+    <script src="scripts/api-call.js"></script>
+</body>
+
+</html>

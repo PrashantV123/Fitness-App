@@ -1,0 +1,47 @@
+.exercise,
+.exercise * {
+    margin: 0;
+}
+
+.display-result {
+    display: flex;
+    flex-direction: column;
+}
+
+.exercise {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin: 30px;
+    padding: 40px;
+    background-color: lightblue;
+    border-radius: 50px 50px 0px 0px;
+
+}
+
+.exercise h3 {
+    font-size: 30px;
+}
+
+.muscle-equipment-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.muscle-equipment-section h5 {
+    text-transform: capitalize;
+    display: flex;
+    margin-right: 50px;
+    font-size: 24px;
+
+}
+
+
+
+.exercise p {
+    font-size: medium;
+    border-radius: 50px;
+    padding: 40px;
+    line-height: 20px;
+    background-color: lightgoldenrodyellow;
+}
