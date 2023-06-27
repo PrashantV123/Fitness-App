@@ -6,6 +6,7 @@
 .display-result {
     display: flex;
     flex-direction: column;
+    width: 1300px;
 }
 
 .exercise {
