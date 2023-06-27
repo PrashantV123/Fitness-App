@@ -1,6 +1,6 @@
 .horizontal-scrollbar-container {
     display: flex;
-    width: 100vh;
+    width: 1360px;
     height: 400px;
     overflow-x: hidden;
     align-items: center;
@@ -32,7 +32,7 @@
     column-gap: 25px;
     justify-content: right;
     align-items: center;
-    width: 100vh;
+    width: 1360px;
     margin-top: 10px;
     margin-bottom: 50px;
 }
